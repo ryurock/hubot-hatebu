@@ -1,0 +1,29 @@
+{
+  "name": "hubot-hatebu",
+  "version": "0.0.0",
+  "description": "Hubot-scripts Returns hatena hotentory feed information from http://b.hatena.ne.jp/hotentry/",
+  "main": "hatebu.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryurock/hubot-hatebu.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "hatena",
+    "hatebu"
+  ],
+  "author": "ryurock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryurock/hubot-hatebu/issues"
+  },
+  "homepage": "https://github.com/ryurock/hubot-hatebu",
+  "dependencies": {
+    "request": "^2.34.0",
+    "xml2json": "^0.4.0"
+  }
+}
